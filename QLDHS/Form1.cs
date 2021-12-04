@@ -22,5 +22,11 @@ namespace QLDHS
             frmHocSinh hs = new frmHocSinh();
             hs.Show();
         }
+
+        private void mnuDSHS_Click(object sender, EventArgs e)
+        {
+            frmDSHS frm = new frmDSHS();
+            frm.Show();
+        }
     }
 }
