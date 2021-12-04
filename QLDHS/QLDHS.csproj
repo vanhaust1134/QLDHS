@@ -77,6 +77,30 @@
     <Compile Include="frmMonHoc.Designer.cs">
       <DependentUpon>frmMonHoc.cs</DependentUpon>
     </Compile>
+    <Compile Include="frm_HocKy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_HocKy.Designer.cs">
+      <DependentUpon>frm_HocKy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_KhoiLop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_KhoiLop.Designer.cs">
+      <DependentUpon>frm_KhoiLop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Lop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Lop.Designer.cs">
+      <DependentUpon>frm_Lop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_NamHoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_NamHoc.Designer.cs">
+      <DependentUpon>frm_NamHoc.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="rptHS.cs">
@@ -93,6 +117,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmHocSinh.resx">
       <DependentUpon>frmHocSinh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_HocKy.resx">
+      <DependentUpon>frm_HocKy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_KhoiLop.resx">
+      <DependentUpon>frm_KhoiLop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Lop.resx">
+      <DependentUpon>frm_Lop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_NamHoc.resx">
+      <DependentUpon>frm_NamHoc.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
