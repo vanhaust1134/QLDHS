@@ -49,7 +49,7 @@
             this.báoCáoToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(574, 33);
+            this.menuStrip1.Size = new System.Drawing.Size(574, 24);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip2";
             // 
@@ -60,25 +60,25 @@
             this.đăngXuấtToolStripMenuItem,
             this.thoátToolStripMenuItem});
             this.hệThốngToolStripMenuItem.Name = "hệThốngToolStripMenuItem";
-            this.hệThốngToolStripMenuItem.Size = new System.Drawing.Size(99, 29);
+            this.hệThốngToolStripMenuItem.Size = new System.Drawing.Size(69, 20);
             this.hệThốngToolStripMenuItem.Text = "Hệ thống";
             // 
             // đăngNhậpToolStripMenuItem
             // 
             this.đăngNhậpToolStripMenuItem.Name = "đăngNhậpToolStripMenuItem";
-            this.đăngNhậpToolStripMenuItem.Size = new System.Drawing.Size(184, 30);
+            this.đăngNhậpToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.đăngNhậpToolStripMenuItem.Text = "Đăng nhập";
             // 
             // đăngXuấtToolStripMenuItem
             // 
             this.đăngXuấtToolStripMenuItem.Name = "đăngXuấtToolStripMenuItem";
-            this.đăngXuấtToolStripMenuItem.Size = new System.Drawing.Size(184, 30);
+            this.đăngXuấtToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.đăngXuấtToolStripMenuItem.Text = "Đăng xuất";
             // 
             // thoátToolStripMenuItem
             // 
             this.thoátToolStripMenuItem.Name = "thoátToolStripMenuItem";
-            this.thoátToolStripMenuItem.Size = new System.Drawing.Size(184, 30);
+            this.thoátToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.thoátToolStripMenuItem.Text = "Thoát";
             // 
             // quảnLýToolStripMenuItem
@@ -86,13 +86,13 @@
             this.quảnLýToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.mnuHS});
             this.quảnLýToolStripMenuItem.Name = "quảnLýToolStripMenuItem";
-            this.quảnLýToolStripMenuItem.Size = new System.Drawing.Size(85, 29);
+            this.quảnLýToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
             this.quảnLýToolStripMenuItem.Text = "Quản lý";
             // 
             // mnuHS
             // 
             this.mnuHS.Name = "mnuHS";
-            this.mnuHS.Size = new System.Drawing.Size(210, 30);
+            this.mnuHS.Size = new System.Drawing.Size(121, 22);
             this.mnuHS.Text = "Học sinh";
             this.mnuHS.Click += new System.EventHandler(this.mnuHS_Click);
             // 
@@ -101,19 +101,19 @@
             this.báoCáoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.mnuDSHS});
             this.báoCáoToolStripMenuItem.Name = "báoCáoToolStripMenuItem";
-            this.báoCáoToolStripMenuItem.Size = new System.Drawing.Size(87, 29);
+            this.báoCáoToolStripMenuItem.Size = new System.Drawing.Size(61, 20);
             this.báoCáoToolStripMenuItem.Text = "Báo cáo";
             // 
             // mnuDSHS
             // 
             this.mnuDSHS.Name = "mnuDSHS";
-            this.mnuDSHS.Size = new System.Drawing.Size(249, 30);
+            this.mnuDSHS.Size = new System.Drawing.Size(177, 22);
             this.mnuDSHS.Text = "Danh sách học sinh";
             this.mnuDSHS.Click += new System.EventHandler(this.mnuDSHS_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 27F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(574, 438);
             this.Controls.Add(this.menuStrip1);
