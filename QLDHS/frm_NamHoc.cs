@@ -17,7 +17,7 @@ namespace QLDHS
         {
             InitializeComponent();
         }
-        SqlConnection connect = new SqlConnection("Data Source=HBNGUYEN-LAPTOP\\SQLEXPRESS;Initial Catalog=QLDHS;Integrated Security=True");
+        SqlConnection connect = new SqlConnection("Data Source=.;Initial Catalog=QLDHS;Integrated Security=True");
         private void frm_NamHoc_Load(object sender, EventArgs e)
         {
             LoadNamHoc();
