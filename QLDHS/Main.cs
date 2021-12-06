@@ -159,5 +159,73 @@ namespace QLDHS
             //frm_QuanLyDiem frm = new frm_QuanLyDiem();
             //ActivateMdiChild(frm);
         }
+        private string layname()
+        {
+            string name = lbNameTK.Text;
+            return name;
+        }
+        public string TenTK(string s)
+        {
+            string Name = s;
+            lbNameTK.Text =Name.ToString();
+            return Name;
+        }
+        public void anmnMain(string s)
+        {
+            if (s.ToLower().Contains("student") == true)
+            {
+                mnuHS.Enabled = false;
+                mnuKhoiLop.Enabled = false;
+                mnuMH.Enabled = false;
+                mnuGV.Enabled = false;
+                mnuLop.Enabled = false;
+                mnuNamHoc.Enabled = false;
+                mnuHocKy.Enabled = false;
+                mnuDSHS.Enabled = false;
+            }
+            else if (s.ToLower().Contains("teacher") == true)
+            {
+                mnuKhoiLop.Enabled = false;
+                mnuMH.Enabled = false;
+                mnuLop.Enabled = false;
+                mnuNamHoc.Enabled = false;
+                mnuHocKy.Enabled = false;
+                mnuDSHS.Enabled = false;
+            }
+            else if (s.ToLower().Contains("school") == true)
+            {
+            }
+        }
+
+        private void mnuNguoiDung_Click(object sender, EventArgs e)
+        {
+            frm_NguoiDung frm = new frm_NguoiDung();
+            if (Kiemtra("frm_NguoiDung"))
+            {
+                frm.Focus();
+                frm.Activate();
+            }
+            else
+            {
+                frm.MdiParent = this;
+                frm.Show();
+            }
+        }
+
+        private void mnuThayDoiMK_Click(object sender, EventArgs e)
+        {
+            frm_ThayDoiMK frm = new frm_ThayDoiMK();
+            if (Kiemtra("frm_ThayDoiMK"))
+            {
+                frm.Focus();
+                frm.Activate();
+            }
+            else
+            {
+                frm.TenTK(layname());
+                frm.Show();
+            }
+            frm.TaiKhoanND(layname());
+        }
     }
 }

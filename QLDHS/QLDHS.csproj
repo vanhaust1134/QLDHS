@@ -53,11 +53,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="frm_NguoiDung.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="frm_NguoiDung.Designer.cs">
+      <DependentUpon>frm_NguoiDung.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_ThayDoiMK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_ThayDoiMK.Designer.cs">
+      <DependentUpon>frm_ThayDoiMK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
     </Compile>
     <Compile Include="frmDSHS.cs">
       <SubType>Form</SubType>
@@ -76,6 +88,12 @@
     </Compile>
     <Compile Include="frmMonHoc.Designer.cs">
       <DependentUpon>frmMonHoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DangNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DangNhap.Designer.cs">
+      <DependentUpon>frm_DangNhap.cs</DependentUpon>
     </Compile>
     <Compile Include="frm_Diem.cs">
       <SubType>Form</SubType>
@@ -113,12 +131,6 @@
     <Compile Include="frm_NamHoc.Designer.cs">
       <DependentUpon>frm_NamHoc.cs</DependentUpon>
     </Compile>
-    <Compile Include="frm_NguoiDung.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frm_NguoiDung.Designer.cs">
-      <DependentUpon>frm_NguoiDung.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="rptHS.cs">
@@ -127,8 +139,14 @@
       <DependentUpon>rptHS.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="frm_NguoiDung.resx">
+      <DependentUpon>frm_NguoiDung.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_ThayDoiMK.resx">
+      <DependentUpon>frm_ThayDoiMK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmDSHS.resx">
       <DependentUpon>frmDSHS.cs</DependentUpon>
@@ -139,14 +157,14 @@
     <EmbeddedResource Include="frmMonHoc.resx">
       <DependentUpon>frmMonHoc.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frm_DangNhap.resx">
+      <DependentUpon>frm_DangNhap.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frm_Diem.resx">
       <DependentUpon>frm_Diem.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frm_GiaoVien.resx">
       <DependentUpon>frm_GiaoVien.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frm_NguoiDung.resx">
-      <DependentUpon>frm_NguoiDung.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
