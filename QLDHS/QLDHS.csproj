@@ -53,11 +53,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="frm_NguoiDung.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="frm_NguoiDung.Designer.cs">
+      <DependentUpon>frm_NguoiDung.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_ThayDoiMK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_ThayDoiMK.Designer.cs">
+      <DependentUpon>frm_ThayDoiMK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
     </Compile>
     <Compile Include="frmDSHS.cs">
       <SubType>Form</SubType>
@@ -76,6 +88,12 @@
     </Compile>
     <Compile Include="frmMonHoc.Designer.cs">
       <DependentUpon>frmMonHoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DangNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DangNhap.Designer.cs">
+      <DependentUpon>frm_DangNhap.cs</DependentUpon>
     </Compile>
     <Compile Include="frm_Diem.cs">
       <SubType>Form</SubType>
@@ -125,36 +143,12 @@
     <Compile Include="frm_NguoiDung.Designer.cs">
       <DependentUpon>frm_NguoiDung.cs</DependentUpon>
     </Compile>
-    <Compile Include="frm_TimGV.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frm_TimGV.Designer.cs">
-      <DependentUpon>frm_TimGV.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frm_TimKiemHS.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frm_TimKiemHS.Designer.cs">
-      <DependentUpon>frm_TimKiemHS.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frm_TimLop.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frm_TimLop.Designer.cs">
-      <DependentUpon>frm_TimLop.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="rptHS.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>rptHS.rpt</DependentUpon>
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="rpt_Diem.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>rpt_Diem.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
     <EmbeddedResource Include="Form1.resx">
@@ -169,6 +163,9 @@
     <EmbeddedResource Include="frmMonHoc.resx">
       <DependentUpon>frmMonHoc.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frm_DangNhap.resx">
+      <DependentUpon>frm_DangNhap.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frm_Diem.resx">
       <DependentUpon>frm_Diem.cs</DependentUpon>
     </EmbeddedResource>
@@ -180,15 +177,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frm_NguoiDung.resx">
       <DependentUpon>frm_NguoiDung.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frm_TimGV.resx">
-      <DependentUpon>frm_TimGV.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frm_TimKiemHS.resx">
-      <DependentUpon>frm_TimKiemHS.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frm_TimLop.resx">
-      <DependentUpon>frm_TimLop.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

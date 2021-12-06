@@ -16,7 +16,7 @@ namespace QLDHS
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frm_QuanLyDiem());
+            Application.Run(new frm_DangNhap());
         }
     }
 }
