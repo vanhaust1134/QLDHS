@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace QLDHS
 {
-    public partial class Form1 : Form
+    public partial class frm_QuanLyDiem : Form
     {
-        public Form1()
+        public frm_QuanLyDiem()
         {
             InitializeComponent();
         }
@@ -152,6 +152,12 @@ namespace QLDHS
                 frm.MdiParent = this;
                 frm.Show();
             }
+        }
+
+        private void frm_QuanLyDiem_Load(object sender, EventArgs e)
+        {
+            //frm_QuanLyDiem frm = new frm_QuanLyDiem();
+            //ActivateMdiChild(frm);
         }
     }
 }
