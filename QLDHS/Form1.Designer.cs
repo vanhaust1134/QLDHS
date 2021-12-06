@@ -45,16 +45,21 @@
             this.mnuHocKy = new System.Windows.Forms.ToolStripMenuItem();
             this.báoCáoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuDSHS = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuDiemTheoMon = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuDiemTheoHK = new System.Windows.Forms.ToolStripMenuItem();
+            this.traCứuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuTimHS = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuTimGV = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuTimLop = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.panel4 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -68,7 +73,8 @@
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.hệThốngToolStripMenuItem,
             this.quảnLýToolStripMenuItem,
-            this.báoCáoToolStripMenuItem});
+            this.báoCáoToolStripMenuItem,
+            this.traCứuToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(919, 33);
@@ -121,63 +127,65 @@
             // mnuHS
             // 
             this.mnuHS.Name = "mnuHS";
-            this.mnuHS.Size = new System.Drawing.Size(171, 30);
+            this.mnuHS.Size = new System.Drawing.Size(210, 30);
             this.mnuHS.Text = "Học sinh";
             this.mnuHS.Click += new System.EventHandler(this.mnuHS_Click);
             // 
             // mnuKhoiLop
             // 
             this.mnuKhoiLop.Name = "mnuKhoiLop";
-            this.mnuKhoiLop.Size = new System.Drawing.Size(171, 30);
+            this.mnuKhoiLop.Size = new System.Drawing.Size(210, 30);
             this.mnuKhoiLop.Text = "Khối lớp";
             this.mnuKhoiLop.Click += new System.EventHandler(this.mnuKhoiLop_Click);
             // 
             // mnuMH
             // 
             this.mnuMH.Name = "mnuMH";
-            this.mnuMH.Size = new System.Drawing.Size(171, 30);
+            this.mnuMH.Size = new System.Drawing.Size(210, 30);
             this.mnuMH.Text = "Môn học";
             this.mnuMH.Click += new System.EventHandler(this.mnuMH_Click);
             // 
             // mnuGV
             // 
             this.mnuGV.Name = "mnuGV";
-            this.mnuGV.Size = new System.Drawing.Size(171, 30);
+            this.mnuGV.Size = new System.Drawing.Size(210, 30);
             this.mnuGV.Text = "Giáo viên";
             this.mnuGV.Click += new System.EventHandler(this.mnuGV_Click);
             // 
             // mnuDiem
             // 
             this.mnuDiem.Name = "mnuDiem";
-            this.mnuDiem.Size = new System.Drawing.Size(171, 30);
+            this.mnuDiem.Size = new System.Drawing.Size(210, 30);
             this.mnuDiem.Text = "Điểm";
             this.mnuDiem.Click += new System.EventHandler(this.mnuDiem_Click);
             // 
             // mnuLop
             // 
             this.mnuLop.Name = "mnuLop";
-            this.mnuLop.Size = new System.Drawing.Size(171, 30);
+            this.mnuLop.Size = new System.Drawing.Size(210, 30);
             this.mnuLop.Text = "Lớp";
             this.mnuLop.Click += new System.EventHandler(this.mnuLop_Click);
             // 
             // mnuNamHoc
             // 
             this.mnuNamHoc.Name = "mnuNamHoc";
-            this.mnuNamHoc.Size = new System.Drawing.Size(171, 30);
+            this.mnuNamHoc.Size = new System.Drawing.Size(210, 30);
             this.mnuNamHoc.Text = "Năm Học";
             this.mnuNamHoc.Click += new System.EventHandler(this.mnuNamHoc_Click);
             // 
             // mnuHocKy
             // 
             this.mnuHocKy.Name = "mnuHocKy";
-            this.mnuHocKy.Size = new System.Drawing.Size(171, 30);
+            this.mnuHocKy.Size = new System.Drawing.Size(210, 30);
             this.mnuHocKy.Text = "Học Kỳ";
             this.mnuHocKy.Click += new System.EventHandler(this.mnuHocKy_Click);
             // 
             // báoCáoToolStripMenuItem
             // 
             this.báoCáoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.mnuDSHS});
+            this.mnuDSHS,
+            this.mnuDiemTheoMon,
+            this.mnuDiemTheoHK});
             this.báoCáoToolStripMenuItem.Name = "báoCáoToolStripMenuItem";
             this.báoCáoToolStripMenuItem.Size = new System.Drawing.Size(87, 29);
             this.báoCáoToolStripMenuItem.Text = "Báo cáo";
@@ -185,9 +193,53 @@
             // mnuDSHS
             // 
             this.mnuDSHS.Name = "mnuDSHS";
-            this.mnuDSHS.Size = new System.Drawing.Size(249, 30);
+            this.mnuDSHS.Size = new System.Drawing.Size(321, 30);
             this.mnuDSHS.Text = "Danh sách học sinh";
             this.mnuDSHS.Click += new System.EventHandler(this.mnuDSHS_Click);
+            // 
+            // mnuDiemTheoMon
+            // 
+            this.mnuDiemTheoMon.Name = "mnuDiemTheoMon";
+            this.mnuDiemTheoMon.Size = new System.Drawing.Size(321, 30);
+            this.mnuDiemTheoMon.Text = "Danh sách điểm theo môn";
+            this.mnuDiemTheoMon.Click += new System.EventHandler(this.mnuDiemTheoMon_Click);
+            // 
+            // mnuDiemTheoHK
+            // 
+            this.mnuDiemTheoHK.Name = "mnuDiemTheoHK";
+            this.mnuDiemTheoHK.Size = new System.Drawing.Size(321, 30);
+            this.mnuDiemTheoHK.Text = "Danh sách điểm theo học kỳ";
+            // 
+            // traCứuToolStripMenuItem
+            // 
+            this.traCứuToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.mnuTimHS,
+            this.mnuTimGV,
+            this.mnuTimLop});
+            this.traCứuToolStripMenuItem.Name = "traCứuToolStripMenuItem";
+            this.traCứuToolStripMenuItem.Size = new System.Drawing.Size(80, 29);
+            this.traCứuToolStripMenuItem.Text = "Tra cứu";
+            // 
+            // mnuTimHS
+            // 
+            this.mnuTimHS.Name = "mnuTimHS";
+            this.mnuTimHS.Size = new System.Drawing.Size(210, 30);
+            this.mnuTimHS.Text = "Tìm học sinh";
+            this.mnuTimHS.Click += new System.EventHandler(this.mnuTimHS_Click);
+            // 
+            // mnuTimGV
+            // 
+            this.mnuTimGV.Name = "mnuTimGV";
+            this.mnuTimGV.Size = new System.Drawing.Size(210, 30);
+            this.mnuTimGV.Text = "Tìm giáo viên";
+            this.mnuTimGV.Click += new System.EventHandler(this.mnuTimGV_Click);
+            // 
+            // mnuTimLop
+            // 
+            this.mnuTimLop.Name = "mnuTimLop";
+            this.mnuTimLop.Size = new System.Drawing.Size(210, 30);
+            this.mnuTimLop.Text = "Tìm lớp";
+            this.mnuTimLop.Click += new System.EventHandler(this.mnuTimLop_Click);
             // 
             // panel1
             // 
@@ -202,15 +254,25 @@
             this.panel1.Size = new System.Drawing.Size(200, 488);
             this.panel1.TabIndex = 3;
             // 
-            // button1
+            // button3
             // 
-            this.button1.BackColor = System.Drawing.Color.Coral;
-            this.button1.Location = new System.Drawing.Point(0, 150);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(200, 37);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Home";
-            this.button1.UseVisualStyleBackColor = false;
+            this.button3.BackColor = System.Drawing.Color.Coral;
+            this.button3.Location = new System.Drawing.Point(-3, 298);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(200, 37);
+            this.button3.TabIndex = 3;
+            this.button3.Text = "Log out";
+            this.button3.UseVisualStyleBackColor = false;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.Coral;
+            this.button2.Location = new System.Drawing.Point(0, 226);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(200, 37);
+            this.button2.TabIndex = 2;
+            this.button2.Text = "Log in";
+            this.button2.UseVisualStyleBackColor = false;
             // 
             // pictureBox1
             // 
@@ -223,25 +285,15 @@
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
-            // button2
+            // button1
             // 
-            this.button2.BackColor = System.Drawing.Color.Coral;
-            this.button2.Location = new System.Drawing.Point(0, 226);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(200, 37);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "Log in";
-            this.button2.UseVisualStyleBackColor = false;
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.Coral;
-            this.button3.Location = new System.Drawing.Point(-3, 298);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(200, 37);
-            this.button3.TabIndex = 3;
-            this.button3.Text = "Log out";
-            this.button3.UseVisualStyleBackColor = false;
+            this.button1.BackColor = System.Drawing.Color.Coral;
+            this.button1.Location = new System.Drawing.Point(0, 150);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(200, 37);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "Home";
+            this.button1.UseVisualStyleBackColor = false;
             // 
             // panel2
             // 
@@ -263,6 +315,17 @@
             this.panel3.Size = new System.Drawing.Size(719, 152);
             this.panel3.TabIndex = 5;
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Right;
+            this.pictureBox2.Location = new System.Drawing.Point(510, 85);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(209, 67);
+            this.pictureBox2.TabIndex = 1;
+            this.pictureBox2.TabStop = false;
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -275,32 +338,12 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Student Core Management";
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
-            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Right;
-            this.pictureBox2.Location = new System.Drawing.Point(510, 85);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(209, 67);
-            this.pictureBox2.TabIndex = 1;
-            this.pictureBox2.TabStop = false;
-            // 
-            // panel4
-            // 
-            this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel4.Location = new System.Drawing.Point(200, 233);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(719, 288);
-            this.panel4.TabIndex = 6;
-            // 
             // frm_QuanLyDiem
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 27F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(919, 521);
-            this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
@@ -351,7 +394,12 @@
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.ToolStripMenuItem mnuDiemTheoMon;
+        private System.Windows.Forms.ToolStripMenuItem mnuDiemTheoHK;
+        private System.Windows.Forms.ToolStripMenuItem traCứuToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem mnuTimHS;
+        private System.Windows.Forms.ToolStripMenuItem mnuTimGV;
+        private System.Windows.Forms.ToolStripMenuItem mnuTimLop;
     }
 }
 

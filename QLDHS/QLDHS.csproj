@@ -83,6 +83,12 @@
     <Compile Include="frm_Diem.Designer.cs">
       <DependentUpon>frm_Diem.cs</DependentUpon>
     </Compile>
+    <Compile Include="frm_DSDiem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DSDiem.Designer.cs">
+      <DependentUpon>frm_DSDiem.cs</DependentUpon>
+    </Compile>
     <Compile Include="frm_GiaoVien.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -119,12 +125,36 @@
     <Compile Include="frm_NguoiDung.Designer.cs">
       <DependentUpon>frm_NguoiDung.cs</DependentUpon>
     </Compile>
+    <Compile Include="frm_TimGV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_TimGV.Designer.cs">
+      <DependentUpon>frm_TimGV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_TimKiemHS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_TimKiemHS.Designer.cs">
+      <DependentUpon>frm_TimKiemHS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_TimLop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_TimLop.Designer.cs">
+      <DependentUpon>frm_TimLop.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="rptHS.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>rptHS.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rpt_Diem.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_Diem.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
     <EmbeddedResource Include="Form1.resx">
@@ -142,11 +172,23 @@
     <EmbeddedResource Include="frm_Diem.resx">
       <DependentUpon>frm_Diem.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frm_DSDiem.resx">
+      <DependentUpon>frm_DSDiem.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frm_GiaoVien.resx">
       <DependentUpon>frm_GiaoVien.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frm_NguoiDung.resx">
       <DependentUpon>frm_NguoiDung.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_TimGV.resx">
+      <DependentUpon>frm_TimGV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_TimKiemHS.resx">
+      <DependentUpon>frm_TimKiemHS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_TimLop.resx">
+      <DependentUpon>frm_TimLop.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -160,6 +202,10 @@
     <EmbeddedResource Include="rptHS.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>rptHS.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rpt_Diem.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_Diem.cs</LastGenOutput>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
